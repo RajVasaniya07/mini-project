@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        
+    <title>mini project</title>
+    <style>
+        h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+.button {
+        position: absolute;
+        left: 680px;
+        bottom: 1px;
+        
+      }
+      .button1 {
+  background-color: grey;
+  color: black;
+  border: 2px solid black;
+}
+
+.button1:hover {
+  color:white;
+  background-color: black
+}
+
+        .button {
+            background-color:#05c3dd;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 6px 4px;
+            cursor: pointer;
+            background-position: center bottom;
+            z-index: 0;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-repeat: no-repeat;
+            background-position: right top;
+            box-sizing: border-box;
+            background-size: 700px 700px;
+            /* font-family: sans-serif; */
+            background-attachment: scroll;
+        }
+        .menubar {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+        .menubar ul {
+            display: inline-flex;
+            list-style: none;
+            color: gray
+            
+        }
+        .menubar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .menubar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 24px ;
+
+        }
+        .active,
+        .menubar ul li:hover {
+            background:  #fddb27ff;
+            border-radius: 17px;
+        }
+        .menubar .fa {
+            margin-right: 10px;
+        }
+        .submenu {
+            display: none;
+        }
+        .menubar ul li:hover .submenu {
+            display: block;
+            position: absolute;
+            background:#00b1d2ff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        .menubar ul li:hover .submenu ul {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted rgba(16, 3, 3, 0.86);
+            background:#0077b6;
+            border-radius: 0;
+            text-align: left;
+        }
+        .menubar ul li:hover .submenu ul li::last-child {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu ul li a:hover {
+            color:white;
+            background-attachment: scroll;
+        }
+        img {
+            width: 85%;
+        }
+        body{
+            height: 1000px;
+        }
+        .menubar{
+            background-attachment: local,scroll;
+        }
+        h1{
+            margin: 60px 850px 0px 5px;
+            
+        }
+        h2{
+            margin: 0px 0px 0px 75px;
+        }
+            
+div.begin {
+  padding:20px;
+  margin-top:50px;
+}
+
+body{text-align: center;
+  background-image:url("contact us background (1).jpg");
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #d1cdec;
+  padding: 60px;
+  width: 40%;
+  margin-left: 20px;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p{color: grey;
+  font-size: larger;
+}
+</style>
+</head>
+<body>
+<ul style="text-align: center;">
+
+    
+        
+    </style>
+</head>
+<body>
+    
+    <div class="menubar">
+        <ul>
+          <img style="width: 84px; height:84px;" src="nav_logo-modified (1).png" alt="logo">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="c.html">Categories</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="c1.html">Story</a></li>
+                        <li><a href="c2.html">Biopic</a></li>
+                        <li><a href="c3.html">Financial</a></li>
+                        <li><a href="c4.html">Motivational</a></li>
+                        <li><a href="c5.html">Programming</a></li>
+                        <li><a href="c6.html">novels</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>AboutUs </a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+    </div>
+    
+    <br><br><br>
+</ul>
+<div class="begin">
+  <h1 style="font-size: 70px ">Contact</h1>
+  <div class="container">
+    <h1 style="color:white" >Suggestions</h1><br>
+    <form >
+      <label for="name" style="color: white">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+  
+      <label for="Email-id" style="color: white">Email-id</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your Email-id...">
+  
+      <label for="Suggestion" style="color: white">Suggestion</label>
+      <textarea id="subject" name="subject" placeholder="Write your Suggestions..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <br><br><br><br><br>
+  <div class="row">
+    <div class="column">
+      <img src="mail1.jpg"  style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>oceanofknowledge@gmail.com</p>
+    </div>
+    
+    <div class="column">
+      <img src="call1.jpg" style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>+911234567890</p>
+    </div>
+    
+    <div class="column">
+      <img src="insta1.jpg"  style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>@ocean_of_knowledge</p>
+</div>
+</body>
+</html>
+    

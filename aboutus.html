@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>mini project</title>
+    <style>
+        h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+h4{
+  font-size: 20px;
+}
+h3 {
+  font-size: 50px;
+  color: aqua;
+}
+
+h5 {
+  font-size: 50px;
+}
+
+
+
+        
+      
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            
+            
+            background-repeat: no-repeat;
+            background-position: right top;
+            box-sizing: border-box;
+            background-size: 700px 700px;
+            /* font-family: sans-serif; */
+            background-attachment: scroll;
+            
+        }
+        .menubar {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+        .menubar ul {
+            display: inline-flex;
+            list-style: none;
+            color: gray
+            
+        }
+        .menubar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .menubar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 24px ;
+
+        }
+        .active,
+        .menubar ul li:hover {
+            background:  #fddb27ff;
+            border-radius: 17px;
+        }
+        .menubar .fa {
+            margin-right: 10px;
+        }
+        .submenu {
+            display: none;
+        }
+        .menubar ul li:hover .submenu {
+            display: block;
+            position: absolute;
+            background:#00b1d2ff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        .menubar ul li:hover .submenu ul {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted rgba(16, 3, 3, 0.86);
+            background:#0077b6;
+            border-radius: 0;
+            text-align: left;
+        }
+        .menubar ul li:hover .submenu ul li::last-child {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu ul li a:hover {
+            color:white;
+            background-attachment: scroll;
+        }
+        img {
+            width: 85%;
+        }
+        body{
+            height: 1000px;
+        }
+        .menubar{
+            background-attachment: local,scroll;
+        }
+        h1{
+            margin: 60px 50px 0px 5px;
+            
+        }
+        h2{
+            margin: 10px 10px 10px 30px;
+        }
+            
+div.begin {
+  padding:20px;
+  margin-top:50px;
+}
+
+* {
+            padding: 0;
+            margin: 10;
+            box-sizing: border-box;
+        }
+
+body{
+    text-align: center;
+    
+  background-image:url("about-us-page.jpg");
+  background-color:white;
+  background-repeat: no-repeat;
+            background-position: right top;
+            
+            box-sizing: border-box;
+            background-size: 700px 700px;
+            background-attachment: scroll;
+        
+  
+}
+
+.column {
+  float: left;
+  
+  width: 30%;
+  padding: 15px;
+  
+}
+.card{
+  border: solid black 2px;
+  background-color: #ff4a77;
+  height: 330px;
+  width: 350px
+}
+.card1{
+  border: solid white 2px;
+  background-color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+td {
+            padding-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="menubar">
+        <ul>
+          <img style="width: 84px; height:84px;" src="nav_logo-modified (1).png" alt="logo">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="c.html">Categories</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="c1.html">Story</a></li>
+                        <li><a href="c2.html">Biopic</a></li>
+                        <li><a href="c3.html">Financial</a></li>
+                        <li><a href="c4.html">Motivational</a></li>
+                        <li><a href="c5.html">Programing</a></li>
+                        <li><a href="c6.html">novels</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>AboutUs </a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      
+      
+      
+    </div>
+    
+      
+      
+    <br><br>
+    <div><h1>About Us</h1></div>
+    <div>
+    </div>
+  
+    <h5 style="text-align:left">Our Team</h5>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="img4.jpg" alt="Raj Vasaniya" style="width:35%" width="10px"  height="100px">
+          <div class="container">
+            <h2>Raj Vasaniya</h2>
+            <p class="title"> Founder</p>
+            <h4 style="padding: 35px">I am a Founder of this company.</h4>
+            <h4>Rajvasaniya.com</h4>
+          
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="img4.jpg" alt="meet visodiya" style="width:35%" width="10px"  height="100px">
+          <div class="container">
+            
+           <h2>Meet visodiya</h2>
+            <p class="title">CEO </p>
+            <h4 style="padding: 35px">I am a CEO of this company.</h4>
+            <h4>Meetvisodiya.com</h4>
+            
+
+          </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      </div>
+  
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column card1">
+        <img src="vision1.jpg" style="width:200px;height:200px;">
+       <h3>Vision</h3>
+        <p style="color: white;">"We strive to develop a community with all the knowledge they want"</p>
+        <br><br><br><br><br><br><br><br>
+      </div>
+      
+      <div class="column card1">
+        <img src="mission.1jpg.png"style="width:200px;height:200px;">
+        <h3>mission</h3>
+        <p style="color: white;">"our mission is to promote information and digital literacy to all students, staff and the community. through collabration , research and thinking critically , students will become proficient learners in accessing information in the 21st century"</p>
+        
+      </div>
+      
+      <div class="column ">
+        <img src="img3.jpg" style="width:450px;height:450px; margin: 0px; padding: 0px;">
+        <br><br><br><br><br>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="column">
+      <img src="mail1.jpg"  style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>oceanofknowledge@gmail.com</p>
+    </div>
+    
+    <div class="column">
+      <img src="call1.jpg" style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>+918799087919</p>
+    </div>
+    
+    <div class="column">
+      <img src="insta1.jpg"  style="border-radius: 50%; width: 60px; height: 60px;">
+      <p>@ocean_of_knowledge</p>
+      
+</div>
+
+    
+  
+
+
+</body>
+</html>
+    

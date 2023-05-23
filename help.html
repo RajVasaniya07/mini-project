@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</html>
+<style>
+
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .menubar {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+        .menubar {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+        .menubar ul {
+            display: inline-flex;
+            list-style: none;
+            color: gray
+            
+        }
+        .menubar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .menubar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 24px ;
+
+        }
+        .active,
+        .menubar ul li:hover {
+            background:  #fddb27ff;
+            border-radius: 17px;
+        }
+        .menubar .fa {
+            margin-right: 10px;
+        }
+        .submenu {
+            display: none;
+        }
+        .menubar ul li:hover .submenu {
+            display: block;
+            position: absolute;
+            background:#00b1d2ff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        .menubar ul li:hover .submenu ul {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted rgba(16, 3, 3, 0.86);
+            background:#0077b6;
+            border-radius: 0;
+            text-align: left;
+        }
+        .menubar ul li:hover .submenu ul li::last-child {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu ul li a:hover {
+            color:white;
+            background-attachment: scroll;
+        }
+        img {
+            width: 85%;
+        }
+        body{
+            height: 1000px;
+        }
+        .menubar{
+            background-attachment: local,scroll;
+        }
+        h1{
+            margin: 60px 10px 0px 75px;
+        }
+        h2{
+            margin: 0px 0px 0px 75px;
+        }
+    
+div.center {
+  position: absolute;
+  right: 300px;
+  width: 900px;
+  height: 250px;
+  background-color: rgb(86, 85, 84);
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+
+div.right1 {
+  position: absolute;
+  right: 50px;  
+  width: 900px;
+  height: 250px;
+  background-color: rgb(196, 11, 94) ;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+div.right2 {
+  position: absolute;
+  right: 50px;  
+  width: 900px;
+  height: 250px;
+  background-color: rgb(164, 141, 203);
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+
+div.left{
+  position: absolute;
+  width: 900px;
+  height: 250px;
+  background-color: orangered ;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+div.left1{
+  position: absolute;
+  width: 900px;
+  height: 250px;
+  background-color: #b05f17 ;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+div.left2{
+  position: absolute;
+  width: 900px;
+  height: 250px;
+  background-color: #166956 ; 
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  z-index: 0;
+}
+p{
+    font-size: 24px;
+    color: white
+}
+h6{
+    font-size: 24px;
+    color: black;
+}
+h2{
+    font-size: 40px;
+}
+h5{
+    font-size: 70px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    
+    <div class="menubar">
+        <ul>
+            <img style="width: 84px; height:84px;" src="nav_logo-modified (1).png" alt="logo">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="c.html">Categories</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="c1.html">Story</a></li>
+                        <li><a href="c2.html">Biopic</a></li>
+                        <li><a href="c3.html">Financial</a></li>
+                        <li><a href="c4.html">Motivational</a></li>
+                        <li><a href="c5.html">Programming</a></li>
+                        <li><a href="c6.html">novels</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>AboutUs </a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      
+    
+      
+    </div>
+    
+    <br><br><br><br><br><br>
+    <h5>Help</h5>
+    <br><br>
+<div class="left">
+    <h2 style="text-decoration-line: underline;">Question 1</h2>
+      <h6> Q. How can I read books on your website?</h6>
+      <p> ans: click on category, you would see a menubar, click the topic you are interseted to read, now click on read button of the book you want to read.</p>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="right1">
+    <h2 style="text-decoration-line: underline;">Question 2</h2>
+      <h6> Q. How can I download books pdf from your website?</h6>
+      <p>ans: click on category, you would see a menubar, click the topic you are interseted to read, now click on read button of the book you want to read , a pdf will open if you want to download it click on download icon.</p>
+    
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="left2">
+    <h2 style="text-decoration-line: underline;">Question 3</h2>
+      <h6>Q. how can I share pdf to my friends from your website? </h6>
+      <p>ans: click on category, you would see a menubar, click the topic you are interseted to read, now click on read button of the book you want to read., pdf will open in drive. In drive top right side three dots are there click on it, share option will be visible click on it.</p>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="right2">
+    <h2 style="text-decoration-line: underline;">Question 4</h2>
+      <h6>Q. How can I know about your company and more details?</h6>
+      <p> ans:click on AboutUs, There you can find out details about our company and our developers</p>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <div class="left1">
+    <h2 style="text-decoration-line: underline;">Question 5</h2>
+      <h6>Q. If I have suggestions regarding the books from where can I contact you ?</h6>
+      <p> ans:click on contact, in contact box enter your name,Email-id and write your Suggestions for us</p>
+      <a href="contact.html"><h1>click here...</h1></a>
+    </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  
+</body>

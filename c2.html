@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>mini project</title>
+    <style>
+        h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+.button {
+        position: absolute;
+        left: 680px;
+        bottom: 1px;
+        
+      }
+      .button {
+        position: absolute;
+        left: 680px;
+        bottom: 1px;
+        
+        
+      }
+     
+.buttonn:hover {
+  color:white;
+  background-color: red;
+}
+
+
+        .buttonn {
+            background-color:black;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 6px 4px;
+            cursor: pointer;
+            background-position: center bottom;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            
+            background-color: #89cff0;
+            background-repeat: no-repeat;
+            background-position: right top;
+            box-sizing: border-box;
+            background-size: 700px 700px;
+            /* font-family: sans-serif; */
+            background-attachment: scroll;
+        }
+        .menubar {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+        .menubar ul {
+            display: inline-flex;
+            list-style: none;
+            color: gray
+            
+        }
+        .menubar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+        .menubar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 24px ;
+
+        }
+        .active,
+        .menubar ul li:hover {
+            background:  #fddb27ff;
+            border-radius: 17px;
+        }
+        .menubar .fa {
+            margin-right: 10px;
+        }
+        .submenu {
+            display: none;
+        }
+        .menubar ul li:hover .submenu {
+            display: block;
+            position: absolute;
+            background:#00b1d2ff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        .menubar ul li:hover .submenu ul {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted rgba(16, 3, 3, 0.86);
+            background:#0077b6;
+            border-radius: 0;
+            text-align: left;
+        }
+        .menubar ul li:hover .submenu ul li::last-child {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu ul li a:hover {
+            color:white;
+            background-attachment: scroll;
+        }
+        img {
+            width: 85%;
+        }
+        body{
+            height: 2000px;
+        }
+        .menubar{
+            background-attachment: local,scroll;
+        }
+        h1{
+            text-align:center;
+            margin: 10px 10px 30px 60px;
+            
+            color: #143d59;
+
+            
+        }
+        h2{
+            margin: 0px 0px 0px 75px;
+        }
+        th {
+            padding-bottom: 10px;
+        }
+        th.read{
+            padding-bottom: 100px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1> Biopic </h1>
+    <div class="menubar">
+        <ul>
+            <img style="width: 84px; height:84px;" src="nav_logo-modified (1).png" alt="logo">
+            <li><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="c.html">Categories<i class="fa-solid fa-sort-down"></i></a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="c1.html">Story</a></li>
+                        <li><a href="c2.html">Biopic</a></li>
+                        <li><a href="c3.html">Financial</a></li>
+                        <li><a href="c4.html">Motivational</a></li>
+                        <li><a href="c5.html">Programming</a></li>
+                        <li><a href="c6.html">novels</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="help.html"><i class="fa-solid fa-bell-concierge"></i>Help</a></li>
+            <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>AboutUs </a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+    </div>
+    <h1> Biopic </h1>
+    <table style="width:90%">
+        <tr style="height:300px">
+          <th style="padding-left: 125px;"><img src="/c2images/c2i1.jpg"style="width:200px;height:300px;"></th>
+          <th><img src="/c2images/c2i2.jpg" style="width:200px;height:300px;"></th>
+          <th><img src="/c2images/c2i3.jpg" style="width:200px;height:300px;"></th>
+          <th><img src="/c2images/c2i4.jpg" style="width:200px;height:300px;"></th>
+        </tr>
+        <tr>
+            <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1Kgyu-YYzqo6kVrFwPErnxD1FZPNr9Ave/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Kl85LJdV34T_j1D0Efdpn7TSUkEY6gcU/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Kq7TsFyRkOaeEumSTemiKjVUbuOWIBwF/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Kv-sgjjz7DCK5RT6jfNc2U5pWAaRhUNR/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i5.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i6.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i7.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i8.jpg" style="width:200px;height:300px;"></th>  
+        </tr>
+        <tr>
+            <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1L0zc0agO39E1Hac7qv1Q9uYvENfoOS1w/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1LVfOqW_Hy0eUdARGjih22M6WeTNhoA-N/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1LdF7pZo9XeTqTls2KXUDhdZ6omphhB2d/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1LpDWbriFvuEWsGw5FHY1KNFQob0-14JV/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i9.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i10.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i11.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i12.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr>
+            <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1LuOvdJN0PvJMn_f-rWrrut-fhekHeqcH/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1LuatPKBuo6IqyUKRcaa_jzk17jAHyMi1/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1LvplDX5CdqMkDHMLcnUV4qmUZxOvvhRf/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1MIg4_bEkMykj1-ouf96sOTQqvbz8w07S/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i13.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i14.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i15.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i16.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr>
+            <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1MS7QXVowWkF_B2NCdC78HulHO11683P5/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1M_XTFL1AMhNzm7AQA0lbcPZKCMvutFyN/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1MaccYl8X6EMr8NpuzOf8eJjb-C738-Vt/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1MeL9Tf4tPPcRAZngaazoW9CIInlACGao/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i17.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i18.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i19.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i20.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1Mlrr3cMJFxbUD93xePRtBrByLMUOfEDU/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1MmOFZjIbX_QIuaX4Ad7hWprTzDivry1_/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Mx3Lck-23r25XFK-fxffQo2fRaF4-Emc/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1NCcHzbZy0ay1XuE8QUSjItNhSdNGNrZD/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i21.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i22.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i23.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i24.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1QJSiESMEX-iNYmozqW5SrmuVpPKl3Seh/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Q_kJ7lV3M2OTE8RHp-xeZHJP4rKcHp14/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1QdsBbtDVBnd02YauxZIPd4kQQ8KFV54-/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Qm7AoJCILLUlRzs37upDYnaTwTC9OQlL/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i25.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i26.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i27.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i28.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1QvAKWJyqTwzvwcxoGd-gWFsjvG_oEHz3/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1REq2jGrJSQoRgviAcu03iPSwSqK60HSe/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1R0bjC9hAPVJstGGwe14OtqHvDOboqF72/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1RFvr-UBIdeT0x1MX3MhwLwfsCGdLHntX/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i29.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i30.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i31.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i32.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1RKnkQhi_gUCjN4NrufOgOEu63H-mHYnQ/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1RVpUNqrR3qF-M1HcTIhex7qWxbu3HRzO/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1RZ2VCXcmSUm_Ws8Tg3YhsBwG5AOwdXTz/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1R_G_Vr6w3L-JRzKxGj-wEgX7RlindXiF/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i33.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i34.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i35.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i36.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1Rlab-mqM-NCl_TxC-xUqx72h-Zw_QZTf/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Ry3DLXYx4YpDQTAzYth6mryUWvujA1UZ/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1SAV06vUIwgpO0AkfERsQaQhmtgXYHD7s/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1SFNghll1_6pdc9Zcl7mHblxpeNTAaYJY/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+        <tr>
+            <th style="padding-left: 125px;"><img src="/c2images/c2i37.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i38.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i39.jpg" style="width:200px;height:300px;"></th>
+            <th><img src="/c2images/c2i40.jpg" style="width:200px;height:300px;"></th>
+            
+        </tr>
+        <tr> <th class="read" style="padding-left: 125px;"><a href="https://drive.google.com/file/d/1SSmc4fYN3_j6Mhr5zga-wgxw6CfRDk7Q/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1SUdaPJQGYUXTbJCUYzLUAhHu9g2Tef4u/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1SpV8gft_7CFA2xLpKKU6rNyqL2MBmvch/view?usp=sharing" class="buttonn button1">Read</a></th>
+            <th class="read"><a href="https://drive.google.com/file/d/1Sx1HnVpFPd21PvMXoeu5jLy2-Ai6hlnC/view?usp=sharing" class="buttonn button1">Read</a></th>
+        </tr> 
+      </table>
+   
